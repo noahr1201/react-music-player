@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.mobile-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.song-list,
+.artist-list,
+.album-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.song,
+.artist,
+.album {
+  cursor: pointer;
+}
+
+.song img,
+.artist img,
+.album img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.music-player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.music-player audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
